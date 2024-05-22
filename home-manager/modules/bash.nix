@@ -94,6 +94,7 @@
       nx-rebuild-home="home-manager switch --flake ~/nix#dudos";
       nx-update="nix flake update && sudo nixos-rebuild switch --flake ~/nix#default";
       nx-search-="nix search nixpkgs#";
+      nx-store-clean="nix-store --gc";
     };
   };
 }

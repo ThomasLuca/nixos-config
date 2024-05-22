@@ -75,6 +75,7 @@
     yt-dlp
     btop
     htop
+    starship
 
     # Docker
     docker
