@@ -1,11 +1,11 @@
 { config, pkgs, ... }:
 
 {
-
   imports = [
     ./modules/bundle.nix
   ];
 
+  # For user specific config and packages.
   home = {
     username = "dudos";
     homeDirectory = "/home/dudos";
@@ -13,7 +13,7 @@
     packages = [
       # pkgs.hello
     ];
-    # Home Manager is pretty good at managing dotfiles. The primary way to manage # plain files is through 'home.file'.
+    # Home Manager is pretty good at managing dotfiles. The primary way to manage plain files is through 'home.file'.
     file = {};
   };
 

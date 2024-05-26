@@ -12,7 +12,7 @@
   boot.initrd.kernelModules = [ ];
   boot.kernelModules = [ "kvm-amd" ];
   #========CUSTOM========
-  boot.kernelParams = ["atkbd.reset"];
+  boot.kernelParams = ["atkbd.reset" "i8042.noaux"];
   #========CUSTOM========
   boot.extraModulePackages = [ ];
 

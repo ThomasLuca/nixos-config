@@ -2,7 +2,7 @@
   users.users.dudos = {
     isNormalUser = true;
     description = "dudos";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [
       #  thunderbird
     ];

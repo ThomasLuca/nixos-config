@@ -11,6 +11,7 @@
     home-manager
     patchelf
     alejandra
+    
     # Text editors
     vim
     neovim
@@ -20,6 +21,7 @@
     # Terminals and multiplexers
     kitty
     tmux
+    starship
 
     # Desktop apps
     firefox
@@ -27,7 +29,7 @@
     chromium
     tor-browser
     spotify
-    discord
+    vesktop
     obs-studio
     lunatask
     obsidian
@@ -53,6 +55,7 @@
     mpv
     feh
     wget
+    zip
     unzip
     fd
     bat
@@ -68,14 +71,10 @@
     gnupg
     tree
     tor
-    unzip
     ffmpeg
-    ranger
-    zip
     yt-dlp
     btop
     htop
-    starship
 
     # Docker
     docker
