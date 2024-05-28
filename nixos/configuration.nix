@@ -64,5 +64,8 @@
     magicOrExtension = ''\x7fELF....AI\x02'';
   };
 
+  # Fix for keyboard issues
+  powerManagement.resumeCommands = "${pkgs.kmod}/bin/rmmod atkbd; ${pkgs.kmod}/bin/modprobe atkbd reset=1";
+
   system.stateVersion = "23.11";
 }

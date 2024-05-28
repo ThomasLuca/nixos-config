@@ -10,10 +10,6 @@
 
   boot.initrd.availableKernelModules = [ "nvme" "xhci_pci" "usb_storage" "sd_mod" "rtsx_pci_sdmmc" ];
   boot.initrd.kernelModules = [ ];
-  boot.kernelModules = [ "kvm-amd" ];
-  #========CUSTOM========
-  boot.kernelParams = ["atkbd.reset" "i8042.noaux"];
-  #========CUSTOM========
   boot.extraModulePackages = [ ];
 
   fileSystems."/" =
